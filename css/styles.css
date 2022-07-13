@@ -1,0 +1,216 @@
+:root{
+    --accent-color: #2196F3;
+}
+.list{
+    list-style: none;
+}
+.header-list{
+    list-style: none;
+}
+.main-list {
+    list-style: none;
+}
+.about-list{
+    list-style: none;
+}
+.work-item{
+    list-style: none;
+}
+.team-list{
+    list-style: none;
+}
+.footer-item{
+    list-style: none;
+}
+.logo{
+    text-decoration: none;
+}
+.menu-item {
+    text-decoration: none;
+}
+.mail {
+    text-decoration: none;
+}
+.phone {
+    text-decoration: none;
+}
+.header-link {
+    text-decoration: none;
+}
+.link{
+    text-decoration: none;
+
+}
+.body-color{
+font-family:'Roboto',sans-serif;
+}
+
+/*=================HEADER*======================*/
+
+.logo{
+        font-family:'Raleway',sans-serif;
+        font-weight: 700;
+        font-size: 26px;
+        line-height: 1.19;
+        letter-spacing: 0.03em;
+        color: var(--accent-color);
+}
+.logo-accent{
+    font-family:'Raleway', sans-serif;
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 1.19;
+    letter-spacing: 0.03em;
+    color: #000000;
+    }
+.menu-link{
+    font-family:'Roboto',sans-serif;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1.14;
+    letter-spacing: 0.02em;
+    color: #212121;
+    }
+    .menu-link:hover,
+    .menu-link:focus{
+    color: var(--accent-color)
+    }
+.mail{
+    font-family:'Roboto', sans-serif;
+    font-weight: 500;
+    font-size: 14px;
+    line-height:1.14;
+    letter-spacing: 0.02em;
+    color: #757575;
+    }
+    .mail-link:hover,
+    .mail-link:focus {
+    color: var(--accent-color);
+    }
+    .mail-link-dark{
+    color: #757575;
+    }
+    .mail-link-light{
+        
+        /*color: rgba(255, 255, 255, 0.6)*/
+
+    }
+    .phone{
+    font-family:'Roboto', sans-serif;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1.14;
+    letter-spacing: 0.02em;
+    color: #757575;
+    }
+.phone-link:hover,
+.phone-link:focus{
+    color: var(--accent-color);
+    }
+.phone-link-dark{
+    color: #757575;
+    }
+.phone-link-light{
+        
+        /*color: rgba(255, 255, 255, 0.6*/
+    }
+.link{
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 1.14;
+    letter-spacing: 0.03em;
+    /*color: #FFFFFF*/
+}
+    /*============/HEADER================*/
+
+    /*===========HERO====================*/
+.hero-title{
+    font-weight: 900;
+    font-size: 44px;
+    line-height: 1.36;
+    text-align: center;
+    letter-spacing: 0.06em;
+    text-transform: uppercase;
+        
+    /*color: #FFFFFF*/
+}
+/*=============/HERO=====================*/
+
+/*===========COMPONENS===================*/
+.button{
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 1.87;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    letter-spacing: 0.06em;
+    cursor: pointer;
+    
+    /*color: #FFFFFF*/
+}
+.button:hover,
+.button:focus{
+    background-color:var(--accent-color) ;
+    color:#FFFFFF ;
+}
+/*=============COMPONENS====================*/
+
+/*============ABOUT========================*/
+.about-subtitle{
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 1.14;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    color: #212121;
+}
+.about-text{
+    font-size: 14px;
+    line-height: 1.85;
+    letter-spacing: 0.03em;
+    color: #757575;
+}
+/*============/ABOUT========================*/
+
+/*============WORK========================*/
+.work-title{
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 1.17;
+    text-align: center;
+    letter-spacing: 0.03em;
+    color: #212121;
+}
+/*============/WORK========================*/
+
+/*============TEAM========================*/
+.team-title{
+    font-family:'Roboto',sans-serif;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 1.17;
+    text-align: center;
+    letter-spacing: 0.03em;
+    color: #212121;
+}
+.team-subtitle{
+    font-family:'Roboto',sans-serif;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.18;
+    text-align: center;
+    letter-spacing: 0.03em;
+    color: #212121;
+}
+.team-text{
+    font-family:'Roboto',sans-serif;
+    font-size: 16px;
+    line-height: 1.18;
+    text-align: center;
+    letter-spacing: 0.03em;
+    color: #757575;
+}
+/*=============/TEAM====================*/
+
